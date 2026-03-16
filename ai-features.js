@@ -1,5 +1,5 @@
 /* =========================================================
-   Ravi Engineering – Chat Widget (Fully Client-Side)
+   Ravi Engineering Works – Chat Widget (Fully Client-Side)
    No server needed. Works on GitHub Pages & any static host.
 
    ✏️  TO ADD/EDIT ANSWERS: scroll down to the KNOWLEDGE BASE
@@ -10,7 +10,7 @@
 //  KNOWLEDGE BASE  ← Edit this section to customise answers
 // ──────────────────────────────────────────────────────────
 const COMPANY = {
-  name:     "Ravi Engineering Pvt. Ltd.",
+  name:     "Ravi Engineering Works Pvt. Ltd.",
   phone:    "+91 XXXXX XXXXX",           // ← Update with real number
   email:    "info@raviengineering.com",  // ← Update with real email
   location: "Indore, India"
@@ -21,11 +21,11 @@ const FAQ_DATA = [
   // ── Greetings ─────────────────────────────────────────
   {
     keywords: ["hello", "hi", "hey", "good morning", "good afternoon", "howdy", "greetings"],
-    answer: "Hello! 👋 Welcome to Ravi Engineering. I can help you with information about our extraction & distillation plants, services, industries we serve, pricing, and more. What would you like to know?"
+    answer: "Hello! 👋 Welcome to Ravi Engineering Works. I can help you with information about our extraction & distillation plants, services, industries we serve, pricing, and more. What would you like to know?"
   },
   {
     keywords: ["who are you", "what are you", "introduce yourself", "your name", "are you a bot", "are you ai"],
-    answer: "I'm the virtual assistant for Ravi Engineering Pvt. Ltd. I can answer questions about our company, extraction & distillation plants, industries, services, and how to get in touch."
+    answer: "I'm the virtual assistant for Ravi Engineering Works Pvt. Ltd. I can answer questions about our company, extraction & distillation plants, industries, services, and how to get in touch."
   },
   {
     keywords: ["thank", "thanks", "thank you", "great", "awesome", "perfect", "bye", "goodbye", "ok"],
@@ -35,7 +35,7 @@ const FAQ_DATA = [
   // ── About the Company ─────────────────────────────────
   {
     keywords: ["about", "who is ravi", "ravi engineering", "company", "founded", "established", "history", "tell me about"],
-    answer: "Ravi Engineering Pvt. Ltd. has 20+ years of expertise in designing and manufacturing high-efficiency extraction and distillation plants. We have commissioned 120+ plants across 15+ countries for industries including pharma, cosmetics, food, and chemicals."
+    answer: "Ravi Engineering Works Pvt. Ltd. has 20+ years of expertise in designing and manufacturing high-efficiency extraction and distillation plants. We have commissioned 120+ plants across 15+ countries for industries including pharma, cosmetics, food, and chemicals."
   },
   {
     keywords: ["location", "address", "where are you", "office", "headquarters", "based", "city"],
@@ -43,7 +43,7 @@ const FAQ_DATA = [
   },
   {
     keywords: ["experience", "years", "expertise", "how long", "old", "since when"],
-    answer: "Ravi Engineering has over 20 years of experience in extraction and distillation plant design. We've commissioned 120+ plants globally with a 98% average plant uptime rate."
+    answer: "Ravi Engineering Works has over 20 years of experience in extraction and distillation plant design. We've commissioned 120+ plants globally with a 98% average plant uptime rate."
   },
   {
     keywords: ["contact", "reach", "phone", "call", "email", "enquiry", "inquiry", "get in touch", "talk to"],
@@ -53,7 +53,7 @@ const FAQ_DATA = [
   // ── Services / Solutions ──────────────────────────────
   {
     keywords: ["solution", "service", "offer", "provide", "product", "plant", "technology", "manufacture", "what do you do", "what do you make"],
-    answer: "Ravi Engineering offers a wide range of extraction & distillation technologies:\n\n1. Solvent Extraction Plants\n2. Distillation Plants\n3. Molecular Distillation\n4. Essential Oil Extraction\n5. Herbal / Botanical Extraction\n6. Alcohol Distillation\n7. Water Distillation\n8. Custom Engineering Solutions\n\nWould you like details on any specific technology?"
+    answer: "Ravi Engineering Works offers a wide range of extraction & distillation technologies:\n\n1. Solvent Extraction Plants\n2. Distillation Plants\n3. Molecular Distillation\n4. Essential Oil Extraction\n5. Herbal / Botanical Extraction\n6. Alcohol Distillation\n7. Water Distillation\n8. Custom Engineering Solutions\n\nWould you like details on any specific technology?"
   },
   {
     keywords: ["solvent extraction", "solvent"],
@@ -73,7 +73,7 @@ const FAQ_DATA = [
   },
   {
     keywords: ["herbal", "botanical", "ayurveda", "phyto", "nutraceutical", "herb"],
-    answer: "Our herbal extraction plants use ethanol, water, or CO2 as solvents and are GMP-compliant for pharmaceutical and nutraceutical applications."
+    answer: "Our herbal extraction plants use ethanol, water, or CO2 as solvents and are GMP-compliant for pharmaceutical and nutraceutical applications. We specialize in extracts for Senna Leaves, Boswellia, Gypsum, Ashwagandha, Shilajit, Hadjod, Aloe Vera, Tulsi, Bhringraj, Green tea, Lemon Grass, Amla, Oleoresins, Gymnema, Garcinia, Coffee bean, Curcumin, Natural Caffeine, and more."
   },
   {
     keywords: ["alcohol", "ethanol", "spirit", "brewery", "fermentation"],
@@ -109,7 +109,7 @@ const FAQ_DATA = [
   // ── Technical / Quality ───────────────────────────────
   {
     keywords: ["quality", "standard", "certification", "iso", "compliance", "certified"],
-    answer: "Ravi Engineering follows ISO quality management standards. Our plants are built from pharmaceutical-grade SS 316 and other approved materials, with full documentation and quality inspection at every production stage."
+    answer: "Ravi Engineering Works follows ISO quality management standards. Our plants are built from pharmaceutical-grade SS 316 and other approved materials, with full documentation and quality inspection at every production stage."
   },
   {
     keywords: ["material", "stainless steel", "ss316", "ss304", "hastelloy", "glass lined"],
@@ -198,7 +198,7 @@ function initChatWidget() {
                 <div class="ai-chat-header">
                     <div class="ai-chat-header-title">
                         <svg viewBox="0 0 24 24"><path d="M12 2a2 2 0 0 1 2 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 0 1 7 7h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-1H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1a7 7 0 0 1 7-7h1V5.73c-.6-.34-1-.99-1-1.73a2 2 0 0 1 2-2zM5 14a5 5 0 0 0 5 5h4a5 5 0 0 0 5-5H5z"/></svg>
-                        Ravi Engineering Assistant
+                        Ravi Engineering Works Assistant
                     </div>
                     <button class="ai-chat-close" id="ai-chat-close" aria-label="Close">
                         <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
@@ -208,7 +208,7 @@ function initChatWidget() {
                 </div>
 
                 <div id="ai-chat-messages">
-                    <div class="ai-msg ai-msg-ai">Hello! 👋 Welcome to Ravi Engineering. Ask me anything about our extraction &amp; distillation plants, services, industries, or how to contact us.</div>
+                    <div class="ai-msg ai-msg-ai">Hello! 👋 Welcome to Ravi Engineering Works. Ask me anything about our extraction &amp; distillation plants, services, industries, or how to contact us.</div>
                 </div>
 
                 <div class="ai-typing" id="ai-typing-indicator">
